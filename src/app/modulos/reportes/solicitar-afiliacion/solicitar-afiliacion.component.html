@@ -1,0 +1,71 @@
+<p>solicitar-afiliacion works!</p>
+
+<!---Contenido--->
+    <!---Barra lateral-->
+    <div class="container  ">
+        <div class="row mt-6">
+            <div class="col-lg-4 apartado">
+                <div class="row align-items-end">
+                    <div class="col-4 user-img">
+                        <img class="rounded-circle" src="../recursos/usuario.png" alt="">
+                    </div>
+                    <div class="col-8">
+                        Asesor
+                    </div>
+                </div>
+                <ul class="navbar-nav ms-auto mt-5 list d-flex">
+                    <li class="nav-item  px-5 py-1 ">
+                        <a class="nav-link " aria-current="page" href="#">Perfil</a>
+                    </li>
+                    <li class="nav-item active px-5 py-1 ">
+                        <a class="nav-link " href="#">Solicitudes</a>
+                    </li>
+                    <li class="nav-item  px-5 py-1 ">
+                        <a class="nav-link " href="#">Afiliaciones</a>
+                    </li>
+                    <li class="nav-item  px-5 py-1 ">
+                        <a class="nav-link " href="#">Cerrar Sesion</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-lg-8">
+                <div class="">
+                    <div class="text-start pt-5 px-5">
+                        <a class="icon-contact" href="#"><i
+                                class="fa-solid fa-chevron-left"></i></a>
+                    </div>
+                    <div class="mb-4 text-center">
+                        <h3 class="fw-bold text-center">Solicitud 1020</h3>
+
+                    </div>
+
+                    <!--- Formulario -->
+                    <form class="mx-5 mb-5">
+
+                        <div class="mt-2">
+                            <input type="text" class="form-control inputs" id="nombre" onfocus="this.placeholder = ''"
+                                onblur="this.placeholder ='Nombre(s)'" placeholder="Nombre(s)">
+                        </div>
+
+                        <div class="mt-2">
+                            <input type="text" class="form-control inputs" id="especie" onfocus="this.placeholder = ''"
+                                onblur="this.placeholder ='Especie'" placeholder="Especie">
+                        </div>
+
+                        <div class="mt-2">
+                            <input type="text" class="form-control inputs " id="estado" value="Pendiente" >
+                        </div>
+                        <div class="mt-2 ">
+                            <textarea type="text" class="form-control inputs-area" id="asunto" onfocus="this.placeholder = ''" 
+                            onblur="this.placeholder ='Ingresar mensaje'" placeholder="Ingresar mensaje"></textarea>
+                        </div>
+                        <div class="mt-4 text-end">
+                            <button type="submit" class="btn-enviar mb-2">Enviar</button> <br>
+
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    
